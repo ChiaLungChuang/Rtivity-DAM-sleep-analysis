@@ -25,3 +25,6 @@ Monitor*.txt
 # Binaries
 *.exe
 *.pdf
+
+# Build outputs (regenerable, large)
+desktop_build/build/
