@@ -1,0 +1,27 @@
+# Backups
+*.bak
+*.feb_bak
+*.bak2
+
+# Logs
+*.log
+app_log.txt
+rtivity_debug.log
+
+# Cache / temp
+.DS_Store
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Big bundled stuff (don't commit Windows portable Chrome / R)
+Rtivity_windows/
+
+# Data files (you usually don't want raw data in git)
+Monitor*.txt
+*.xlsx
+
+# Binaries
+*.exe
+*.pdf
