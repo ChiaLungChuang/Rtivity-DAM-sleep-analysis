@@ -97,7 +97,7 @@ shinyApp(
                             #
                             h3("A versatile software for the automated analysis of animal activity and sleep patterns", align = "center", style = "font-family: Cambria; font-size: 35px;
                            font-weight:bold;margin-bottom: 20px"),
-                            h4("Version 1.2",align = "center", style = "font-family: Cambria; font-size: 30px;
+                            h4("Version 1.3",align = "center", style = "font-family: Cambria; font-size: 30px;
                            font-weight:bold;text-decoration: underline; margin-bottom: 80px"),
                             
                             

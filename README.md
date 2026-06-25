@@ -78,7 +78,7 @@ If you use Rtivity in published work, please cite **both** the original publicat
 
 **This fork**
 
-> Chuang, C.-L. (2026). *Rtivity — macOS port for R 4.5+* (Version 1.2.0). Demontis Lab, St. Jude Children's Research Hospital. https://github.com/ChiaLungChuang/Rtivity-DAM-sleep-analysis
+> Chuang, C.-L. (2026). *Rtivity — macOS port for R 4.5+* (Version 1.3.0). Demontis Lab, St. Jude Children's Research Hospital. https://github.com/ChiaLungChuang/Rtivity-DAM-sleep-analysis
 
 ## License
 

@@ -40,7 +40,7 @@ dir.create(build_dir, recursive = TRUE, showWarnings = FALSE)
 
 # ── App metadata ───────────────────────────────────────────
 app_name    <- "Rtivity"
-app_version <- "1.2.0"
+app_version <- "1.3.0"
 description <- "Automated analysis of animal activity and sleep patterns"
 
 # ── R version to bundle (change if a newer CRAN binary is available) ──
