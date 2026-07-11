@@ -18,6 +18,15 @@ robust so the app opens and closes cleanly every time.
   went to sleep, or on an error), the window used to be left on screen with nothing
   behind it. The window and the server are now tied together — when either one ends,
   the other shuts down too, so you never end up staring at a blank window.
+- **"Failed to Start" when the app was kept on the Desktop.** The launcher used to
+  write its log and browser-profile data *inside the app bundle*. macOS blocks apps
+  from writing into protected folders (`~/Desktop`, `~/Documents`, `~/Downloads`),
+  so a double-click of an app sitting on the Desktop was denied that write, R never
+  started, and the "Failed to Start" dialog appeared (it only worked when launched
+  from a terminal). Runtime data now lives in `~/Library/Application Support/Rtivity/`,
+  which is always writable, so the app launches from anywhere — Desktop, Downloads,
+  or Applications — and the app bundle no longer bloats with a browser profile.
+  *(macOS download re-published 2026-07-11 with this fix; still version 1.3.0.)*
 
 ### Added
 - **Startup notification.** The first launch of the day can take ~30–60 s while R
